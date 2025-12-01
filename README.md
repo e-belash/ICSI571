@@ -50,8 +50,8 @@ So your degradation operator is: 𝐷(𝑥𝐻𝑅)=Downsample(GaussianBlur(𝑥
 
 How to choose σ:
 
-σ ≈ 0.8–1.0 px → good starting range for mild smoothing (keeps patterns realistic).
+σ ≈ 0.8–1.0 px  -  good starting range for mild smoothing (keeps patterns realistic).
 
-σ < 0.5 px → almost no blur, aliasing may appear.
+σ < 0.5 px  -  almost no blur, aliasing may appear.
 
-σ > 1.5 px → too smooth, removes too much small-scale detail (diffusion model learns an easier but less realistic task).
+σ > 1.5 px  -  too smooth, removes too much small-scale detail (diffusion model learns an easier but less realistic task).
